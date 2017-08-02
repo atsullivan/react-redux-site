@@ -1,0 +1,64 @@
+/****** GLOBAL *********/
+h1, h2, h3 {
+  text-transform: uppercase;
+  margin-bottom: 5px !important;
+}
+
+h1 {
+  font-size: 200px !important;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+hr {
+  width: 70px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  font-weight: 300;
+  width: 40vw
+}
+
+/****** HEADER *********/
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #65FBF0;
+}
+
+/****** MY STORY *********/
+.my-story {
+  /*height: 50vh;*/
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  width: 100vw;
+  background-color: #F9F9F9;
+}
+
+.header p {
+  font-size: 30px;
+}
+
+.my-story p {
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: 1px;
+}
+
+/****** WHAT I DO *********/
