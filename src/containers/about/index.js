@@ -1,14 +1,18 @@
-import React from 'react'
-import '../../styles/about.css'
+import React from 'react';
+import '../../styles/about.css';
+import workspace from '../../assets/images/paper.jpg';
 
 const About = () => (
   <div>
     <div className="header">
-      <h1>About</h1>
-      <p>
-        I am a software engineer living in Santa Barbara California.
-        I specialize in Rails and React.
-      </p>
+      <img src={workspace} alt="workspace"></img>
+      <div className="header-text">
+        <h1>About</h1>
+        <p>
+          I am a software engineer living in Santa Barbara California.
+          I specialize in Rails and React.
+        </p>
+      </div>
     </div>
 
     <div className="my-story">
@@ -21,6 +25,8 @@ const About = () => (
         In my free time I like to design User Interfaces and experiment with new technologies.
       </p>
     </div>
+
+    <img src={workspace} alt="workspace"></img>
 
     <div>
       <h2>What I Do</h2>

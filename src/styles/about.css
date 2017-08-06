@@ -6,6 +6,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 200px !important;
+
 }
 
 h2 {
@@ -36,9 +37,29 @@ p {
 
 /****** HEADER *********/
 .header {
-  height: 100vh;
-  width: 100vw;
-  background-color: #65FBF0;
+  position: relative;
+  width: 100%;
+}
+
+.header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(101, 251, 240, 0.6);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.header-text {
+  position: absolute;
+  width: 100%;
+  top: 20vh;
 }
 
 /****** MY STORY *********/
@@ -59,6 +80,11 @@ p {
   font-size: 20px;
   line-height: 200%;
   letter-spacing: 1px;
+}
+
+img {
+  height: 100vh;
+  width: 100%;
 }
 
 /****** WHAT I DO *********/
