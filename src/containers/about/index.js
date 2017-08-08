@@ -4,7 +4,7 @@ import workspace from '../../assets/images/paper.jpg';
 
 const About = () => (
   <div>
-    <div className="header">
+    <div className="header header-light">
       <img src={workspace} alt="workspace"></img>
       <div className="header-text">
         <h1>About</h1>

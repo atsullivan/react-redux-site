@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 @font-face {
   font-family: 'shamery';
@@ -21,4 +21,84 @@ body {
 
 button:disabled {
   opacity: 0.5;
+}
+
+/****** HEADER *********/
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.header-dark:before {
+  background: rgba(31,40,51, 0.9);
+}
+
+.header-light:before {
+  background: rgba(101, 251, 240, 0.9);
+}
+
+.header-dark > .header-text > h1 {
+  color: rgb(101, 251, 240);
+}
+
+.header-dark > .header-text > p {
+  color: white;
+}
+
+.header-text {
+  position: absolute;
+  width: 100%;
+  top: 10vh;
+}
+
+/****** BUTTON *********/
+.btn {
+  text-transform: uppercase;
+  padding: 20px 30px 20px 30px;
+  border: 2px solid;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 3px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  -ms-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  -ms-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-dark {
+  color: white;
+  border-color: rgb(101, 251, 240);
+}
+
+.btn-dark:hover {
+  background-color: rgb(101, 251, 240);
+  color: black;
+}
+
+.btn-light {
+  color: black;
+  border-color: black;
 }

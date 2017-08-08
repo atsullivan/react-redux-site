@@ -6,7 +6,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 200px !important;
-
+  font-weight: 900;
 }
 
 h2 {
@@ -32,34 +32,8 @@ div {
 
 p {
   font-weight: 300;
-  width: 40vw
-}
-
-/****** HEADER *********/
-.header {
-  position: relative;
-  width: 100%;
-}
-
-.header:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(101, 251, 240, 0.6);
-  -moz-transition: background .3s linear;
-  -webkit-transition: background .3s linear;
-  -o-transition: background .3s linear;
-  transition: background .3s linear;
-}
-
-.header-text {
-  position: absolute;
-  width: 100%;
-  top: 20vh;
+  width: 40vw;
+  margin-top: 0 !important;
 }
 
 /****** MY STORY *********/
