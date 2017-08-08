@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../styles/about.css';
-import workspace from '../../assets/images/paper.jpg';
+import headerImage from '../../assets/images/paper.jpg';
 
 const About = () => (
   <div>
     <div className="header header-dark">
-      <img src={workspace} alt="workspace"></img>
+      <img src={headerImage} alt="headerImage"></img>
       <div className="header-text">
         <h1>About</h1>
         <p>
@@ -27,7 +27,7 @@ const About = () => (
       </p>
     </div>
 
-    <img src={workspace} alt="workspace"></img>
+    <img src={headerImage} alt="headerImage"></img>
 
     <div>
       <h2>What I Do</h2>
