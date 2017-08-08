@@ -14,7 +14,7 @@ const Home = props => (
           I am a software engineer living in Santa Barbara California.
           I specialize in Rails and React.
         </p>
-        <button className="btn btn-dark">See more</button>
+        <button className="btn btn-dark" href="#">See more</button>
       </div>
     </div>
   </div>

@@ -12,7 +12,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;*/
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
@@ -21,6 +20,20 @@ body {
 
 button:disabled {
   opacity: 0.5;
+}
+
+/****** NAVBAR *********/
+header {
+  /*background-color: blue;*/
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 3;
+  text-decoration: none;
+  top: 0;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 60px;
 }
 
 /****** HEADER *********/

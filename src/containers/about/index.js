@@ -4,7 +4,7 @@ import workspace from '../../assets/images/paper.jpg';
 
 const About = () => (
   <div>
-    <div className="header header-light">
+    <div className="header header-dark">
       <img src={workspace} alt="workspace"></img>
       <div className="header-text">
         <h1>About</h1>
@@ -12,6 +12,7 @@ const About = () => (
           I am a software engineer living in Santa Barbara California.
           I specialize in Rails and React.
         </p>
+        <button className="btn btn-dark" href="#">See more</button>
       </div>
     </div>
 
